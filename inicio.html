@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Inicio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #FF6F61, #FFD36B); /* Gradiente de laranja a amarelo */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.95); /* Fundo branco com transparência */
+            padding: 50px 30px;
+            border-radius: 30px; /* Borda mais arredondada */
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3); /* Sombra mais acentuada */
+            max-width: 600px;
+            margin: 20px;
+            backdrop-filter: blur(8px);
+        }
+
+        h1 {
+            color: #FF6F61; /* Laranja forte */
+            font-size: 38px;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 2px; /* Espaçamento das letras */
+        }
+
+        p {
+            font-size: 18px;
+            margin: 15px 0;
+            color: #444;
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 20px 10px;
+            padding: 15px 30px;
+            background-color: #FFD36B; /* Amarelo vibrante */
+            color: #333;
+            text-decoration: none;
+            border-radius: 30px; /* Botões com bordas mais arredondadas */
+            font-size: 18px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 20px rgba(255, 211, 107, 0.5); /* Sombra amarela */
+        }
+
+        .btn:hover {
+            background-color: #FF6F61; /* Mudar para laranja no hover */
+            color: #fff; /* Texto branco no hover */
+            transform: translateY(-8px); /* Elevação ao passar o mouse */
+            box-shadow: 0 10px 25px rgba(255, 111, 97, 0.7); /* Sombra mais forte no hover */
+        }
+
+        .btn:active {
+            transform: translateY(-2px); /* Reduz o efeito de elevação no clique */
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 20px;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            .btn {
+                font-size: 16px;
+                padding: 12px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora Energética</h1>
+        <a href="casa.html" class="btn">Unidade Consumidora</a>
+        <a href="calculadora.html" class="btn">Calculadora</a>
+        <a href="index.html" class="btn">Admin</a>
+    </div>
+</body>
+</html>
